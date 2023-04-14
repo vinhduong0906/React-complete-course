@@ -1,0 +1,12 @@
+#goal-form {
+  border: 1px solid #eee;
+  border-radius: 7px;
+  box-shadow: 0 2px 12px #dcdcdc;
+  width: 400px;
+  margin: 50px auto;
+  padding: 40px 30px;
+}
+#goals {
+  width: 600px;
+  margin: 0 auto;
+}

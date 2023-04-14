@@ -1,0 +1,86 @@
+.card {
+  display: flex;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  gap: 15px;
+}
+
+.card img {
+  height: 16vw;
+  width: 14vw;
+}
+.image {
+}
+.image_url {
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 100;
+  width: 22vw;
+}
+
+.card h3 {
+  color: #0171c2;
+  font-size: larger;
+}
+.distance {
+}
+.tag {
+  display: block;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 5px;
+  background: #00800a;
+  color: #eee;
+}
+.type {
+}
+.description {
+  font-weight: bold;
+}
+.free-cancel {
+  color: #00800a;
+}
+.free-cancel > div {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.rate-price {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rate {
+  font-weight: 500;
+  text-align: left;
+}
+.rate span {
+  background: #01357f;
+  color: #eee;
+  float: right;
+  padding: 2px;
+}
+.rate_text {
+}
+.price {
+  font-size: 1.5rem;
+}
+.rate-price p {
+  font-size: smaller;
+  color: #555;
+  margin: 10px 0 5px;
+}
+.rate-price button {
+  background: #0171c2;
+  border: none;
+  color: #eee;
+  padding: 7px;
+  font-size: large;
+  border-radius: 5px;
+}

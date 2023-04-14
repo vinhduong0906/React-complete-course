@@ -1,0 +1,12 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-control label {
+  font-size: larger;
+}
+.form-control input {
+  border: 1px solid #cacaca;
+  font-size: larger;
+}
