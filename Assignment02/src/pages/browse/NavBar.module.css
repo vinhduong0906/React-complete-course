@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fc0703;
+  cursor: pointer;
+}
+.search-button {
+  width: 3rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+.bgtransparent {
+  background: transparent;
+}
+.bgblack {
+  background: black;
+}

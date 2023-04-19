@@ -1,0 +1,19 @@
+.movies-result {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+}
+.search-result > h2 {
+  margin-left: 1rem;
+}
+.movie > img {
+  width: 130px;
+  margin: 0 0px 14px 0.5rem;
+}
+.movie > img:hover,
+.movies > img:active {
+  scale: 1.2;
+  transition: 0.5s;
+}
+.movie {
+}
