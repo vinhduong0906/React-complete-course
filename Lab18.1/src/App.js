@@ -19,7 +19,7 @@ function App() {
       element: <Layout />,
       errorElement: <NotFound />,
       children: [
-        { path: '*', element: <NotFound /> },
+
         {
           path: '/quotes',
           element: <Quotes />,
@@ -32,6 +32,7 @@ function App() {
           path: 'new-quote',
           element: <NewQuote />,
         },
+        { path: '*', element: <NotFound /> },
       ],
     },
   ]);
