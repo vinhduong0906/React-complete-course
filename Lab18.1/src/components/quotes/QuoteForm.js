@@ -10,6 +10,7 @@ const QuoteForm = (props) => {
   const textInputRef = useRef();
 
   const {
+    inputValue: authorInputValue,
     hasError: authorHasError,
     inputValid: authorValid,
     inputBlurHandler: authorBlurHandler,
@@ -17,6 +18,7 @@ const QuoteForm = (props) => {
     reset: authorReset,
   } = useInput(inputValidate);
   const {
+    inputValue: textInputValue,
     hasError: textHasError,
     inputValid: textValid,
     inputBlurHandler: textBlurHandler,
@@ -33,7 +35,10 @@ const QuoteForm = (props) => {
 
     // optional: Could validate here
 
-    props.onAddQuote({ author: enteredAuthor, text: enteredText });
+    props.onAddQuote(enteredAuthor, enteredText);
+    authorReset();
+    textReset();
+
   }
 
   return (
@@ -51,6 +56,7 @@ const QuoteForm = (props) => {
             <div className={classes['error-text']}>You must enter author!</div>
           )}
           <input
+            value={authorInputValue}
             onChange={authorChangeHandler}
             onBlur={authorBlurHandler}
             type='text'
@@ -66,6 +72,7 @@ const QuoteForm = (props) => {
             </div>
           )}
           <textarea
+            value={textInputValue}
             onChange={textChangeHandler}
             onBlur={textBlurHandler}
             id='text'
