@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mobile-sell-app/static/css/main.b7d37fe1.css",
+    "main.js": "/mobile-sell-app/static/js/main.efa97736.js",
+    "static/js/787.608ed6a1.chunk.js": "/mobile-sell-app/static/js/787.608ed6a1.chunk.js",
+    "static/media/banner1.jpg": "/mobile-sell-app/static/media/banner1.4a22881c941f7b645fa8.jpg",
+    "index.html": "/mobile-sell-app/index.html",
+    "main.b7d37fe1.css.map": "/mobile-sell-app/static/css/main.b7d37fe1.css.map",
+    "main.efa97736.js.map": "/mobile-sell-app/static/js/main.efa97736.js.map",
+    "787.608ed6a1.chunk.js.map": "/mobile-sell-app/static/js/787.608ed6a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7d37fe1.css",
+    "static/js/main.efa97736.js"
+  ]
+}
